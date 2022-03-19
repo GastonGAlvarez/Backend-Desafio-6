@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GastonGAlvarez/Backend-Desafio-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GastonGAlvarez/Backend-Desafio-6/issues"
+  },
+  "homepage": "https://github.com/GastonGAlvarez/Backend-Desafio-6#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "knex": "^1.0.3",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
